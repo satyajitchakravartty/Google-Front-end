@@ -4,12 +4,22 @@
         <title>GSearch</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+    <!-- 1. Copy the html layout from index.html -->
+    <!-- 2. Update the google image pic -->
     <body>
         <div>
             <ul class="navbar-google">
-                <li class="navbar-item-google"><a href="index.html">GSearch</a></li>
+                <li class="navbar-item-google"><a href="index.html">Google Search</a></li>
             </ul>
         </div>
-        Images
+        <div class="center-div">
+            <img src="Images/Google_Images_logo.svg.png" alt="Google icon" height="92px">
+        </div>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" class="rounded-input">
+            <div class="center-div">
+                <input type="submit" value="Google Image Search" class="btn-google">
+            </div>
+        </form>
     </body>
 </html>
